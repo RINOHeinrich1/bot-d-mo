@@ -29,7 +29,7 @@ try:
     search_input.send_keys(Keys.RETURN)
 
     # Attendre le chargement des résultats
-    time.sleep(3)
+    time.sleep(30)
 
     # Récupérer le lien de la première vidéo
     first_video = driver.find_element(By.ID, "video-title")
